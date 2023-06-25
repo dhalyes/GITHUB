@@ -1,4 +1,4 @@
-function showAlert() { alert ('¡Hola, esta es una alerta desde JavaScrit!');}
+
 
 document.querySelector("button.button-menu-toggle")
     .addEventListener("click", function() {
@@ -38,4 +38,9 @@ const alertBtn = document.querySelector('#alert-btn');
 alertBtn.addEventListener('click', () => {
   // Mostrar una alerta con un mensaje personalizado
   alert('¡Haz hecho clic en el botón!');
+    
+    
+function showAlert() { alert ('¡Hola, esta es una alerta desde JavaScrit!');}    
+    
+    
 });
