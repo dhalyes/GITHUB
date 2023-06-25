@@ -22,9 +22,9 @@ nav li {
 }
 
 .container video {
-  width: 50%;
-  height: 50%;
-  border: 2px solid #ccc;
+  width: 30%;
+  height: 30%;
+  border: 1px solid #aaaeee;
   display: block;
   margin: 0 auto;
 }
@@ -84,11 +84,11 @@ p {
 }
 
 img {
-  height: 50px;
-  width: 50px;
+  height: 20px;
+  width: 20px;
   padding: 50px;
-  margin: 50px;
-  border: 50%;
+  margin: 20px;
+  border: 30px;
 }
 
 .box {
