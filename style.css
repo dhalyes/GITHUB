@@ -2,7 +2,7 @@
   
     
 body {
-  background-color: brown;
+  background-color: blueviolet;
 }
 
 nav li {
@@ -71,9 +71,16 @@ h1 {
   margin: 20px;
 }
 
+h2 {
+  font-size: 100px;
+  margin: 40px;
+  color: bisque;
+}
+
 p {
   font-size: 20px;
   margin: 40px 5px 5px 10px;
+  color: azure;
 }
 
 img {
