@@ -2,7 +2,7 @@
   
     
 body {
-  background-color: blueviolet;
+  background-color: antiquewhite;
 }
 
 nav li {
@@ -22,8 +22,8 @@ nav li {
 }
 
 .container video {
-  width: 15%;
-  height: 15%;
+  width: 10%;
+  height: 10%;
   border: 1px solid #aaaeee;
   display: block;
   margin: 0 auto;
@@ -39,11 +39,11 @@ li > a {
 }
 
 li {
-  list-style-type: none;
+  list-style-type:lower-latin;
 }
 
 a {
-  color: #aaaeee;
+  color: blueviolet;
   text-decoration: none;
   font-size: 50px;
 }
@@ -101,7 +101,7 @@ img {
 }
 
 .box {
-  background-color: lightgrey;
+  background-color: skyblue;
   width: 150px;
   height: 150px;
   padding: 20px;
