@@ -84,11 +84,11 @@ p {
 }
 
 img {
-  height: 30%;
-  width: 30%;
+  height: 5%;
+  width: 5%;
   padding: 30%;
-  margin: center;
-  border: 40%;
+  margin-left: 20%;
+  border: 10%;
 }
 
 .box {
