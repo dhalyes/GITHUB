@@ -22,8 +22,8 @@ nav li {
 }
 
 .container video {
-  width: 30%;
-  height: 30%;
+  width: 15%;
+  height: 15%;
   border: 1px solid #aaaeee;
   display: block;
   margin: 0 auto;
@@ -43,7 +43,7 @@ li {
 }
 
 a {
-  color: black;
+  color: #aaaeee;
   text-decoration: none;
   font-size: 50px;
 }
@@ -71,10 +71,19 @@ h1 {
   margin: 20px;
 }
 
-h2 {
+h2,P {
   font-size: 50px;
   margin: 40px;
-  color: black;
+  color: darkviolet;
+}
+
+
+h2 {
+    
+    font-size: 50px;
+       margin: 40px;
+      
+    
 }
 
 p {
@@ -84,10 +93,10 @@ p {
 }
 
 img {
-  height: 40%;
-  width: 40%;
-  padding: 30%;
-  margin: 20%;
+  height: 30%;
+  width: 50%;
+  padding: 10%;
+  margin: 5%;
   border: 10%;
 }
 
