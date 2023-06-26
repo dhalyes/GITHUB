@@ -84,10 +84,10 @@ p {
 }
 
 img {
-  height: 50%;
-  width: 50%x;
+  height: 30%;
+  width: 30%;
   padding: 30%;
-  margin: 40%;
+  margin: center;
   border: 40%;
 }
 
