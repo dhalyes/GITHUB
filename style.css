@@ -21,6 +21,17 @@ nav li {
   color: #aaaeee;
 }
 
+.video{
+
+
+  width: 20%;
+  height: 30%;
+  border: 1px solid #aaaeee;
+  display: block;
+  margin: 0 auto;
+}
+
+
 .container video {
   width: 10%;
   height: 10%;
