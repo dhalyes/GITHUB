@@ -361,6 +361,24 @@ img {
     align-items: flex-start;
   }
 
+/* Estilos generales */
+
+/* Estilos para pantallas grandes */
+@media (min-width: 1024px) {
+  /* Agrega aquí tus estilos para pantallas grandes */
+}
+
+/* Estilos para pantallas medianas */
+@media (max-width: 1023px) and (min-width: 768px) {
+  /* Agrega aquí tus estilos para pantallas medianas */
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 767px) {
+  /* Agrega aquí tus estilos para pantallas pequeñas */
+}    
+    
+    
     nav li {
   display: inline-block;
   margin-right: 20px;
