@@ -260,8 +260,8 @@ body {
 }
 
 .brand img {
-  width:  10em; /* Ajusta el ancho según tus necesidades */
-  height: 5em; /* Para mantener la proporción */
+  max-width:  10em; /* Ajusta el ancho según tus necesidades */
+  max-height:  5em; /* Para mantener la proporción */
   margin-right: 30px; /* Ajusta el margen derecho según tus necesidades */
   border-color: black;
 }
@@ -310,8 +310,8 @@ video {
   margin-top: 10px;
   margin-bottom: 10px;
   align-content: center;
-  width: 30%;
-  height: 25%;
+  max-width: 30em;
+  max-height: 20em;
 }
 
 h1 {
@@ -338,10 +338,10 @@ p {
 }
 
 img {
-  max-width: 60%;
-  height: 30%;
+  max-width: 60em;
+  max-height:30em;
   margin-bottom: 10px;
-  width: 30%; /* Puedes ajustar el valor de acuerdo a tus necesidades */
+  
 }
 
 .button-menu-toggle {
