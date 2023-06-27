@@ -238,14 +238,15 @@ video {
 */
         
 body {
-  background-color: antiquewhite;
+  background-color: violet;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
 
+
 .container-nav {
-  background-color: #aaaeee;
+  background-color: darkseagreen;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -258,6 +259,13 @@ body {
   width: 100%;
 }
 
+.brand img {
+  width:  10em; /* Ajusta el ancho según tus necesidades */
+  height: 5em; /* Para mantener la proporción */
+  margin-right: 30px; /* Ajusta el margen derecho según tus necesidades */
+  border-color: black;
+}
+
 .brand {
   margin-left: 20px;
   font-size: 1.5em;
@@ -268,10 +276,13 @@ body {
 .nav-links li {
   display: inline-block;
   margin-left: 20px;
+  font-size: 50px;
+  color: blueviolet;
+    
 }
 
 .container {
-  background-color: violet;
+  background-color: lawngreen;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -312,10 +323,10 @@ p {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  max-width: 60%;
+  height: 30%;
   margin-bottom: 10px;
-  width: 50%; /* Puedes ajustar el valor de acuerdo a tus necesidades */
+  width: 30%; /* Puedes ajustar el valor de acuerdo a tus necesidades */
 }
 
 .button-menu-toggle {
@@ -353,7 +364,12 @@ img {
   }
 }
         
-        
+ footer {
+  background-color: purple;
+  color: white;
+  padding: 20px;
+     
+}       
         
         
         
