@@ -1,9 +1,10 @@
 
 
 document.querySelector("button.button-menu-toggle")
-    .addEventListener("click", function() {
-        document.querySelector(".nav-links").
-            classList.toggle("nav-links-responsive")})
+  .addEventListener("click", function() {
+    document.querySelector(".nav-links")
+      .classList.toggle("nav-links-responsive");
+});
 
 // Obtener el botón de menú y el contenedor de navegación
 const menuToggleBtn = document.querySelector('.button-menu-toggle');
@@ -37,10 +38,12 @@ const alertBtn = document.querySelector('#alert-btn');
 // Agregar evento de clic al botón de alerta
 alertBtn.addEventListener('click', () => {
   // Mostrar una alerta con un mensaje personalizado
-  alert('¡Haz hecho clic en el botón!');
-    
-    
-function showAlert() { alert ('¡Hola, esta es una alerta desde JavaScrit!');}    
+  alert('¡Has hecho clic en el botón!');
+});
+
+function showAlert() {
+  alert('¡Hola, esta es una alerta desde JavaScript!');
+}    
     
     
 });
